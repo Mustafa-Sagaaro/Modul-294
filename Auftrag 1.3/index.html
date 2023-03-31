@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Titel in der Mitte oben</h1>
+    <div class="all">
+        <div class="grid-container">
+            <div class="grid-item">Alert-Box via Inline JavaScript </div>
+            <div class="grid-item">Alert-Box via externes JavaScript</div>
+            <div class="grid-item">Inline Text im Body Element</div>
+            <div class="grid-item">Hello World nachdem ein Button angeklickt wurde </div>
+            <div class="button-container">
+                <button class="button button1" onclick="alert('Ich bin ein Button')">Button 1</button>
+                <button class="button button2" onclick="buttonfunc()">Button 2</button>
+                <button class="button button3" name="Button" onclick="buttonname(this)">Button 3</button>
+                <button class="button button4" onclick="alert('Hello World')">Button 4</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
