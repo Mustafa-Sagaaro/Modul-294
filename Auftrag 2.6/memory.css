@@ -1,0 +1,62 @@
+#playground {
+  display: grid;
+  grid: repeat(3, 1fr) / repeat(7, 1fr);
+  grid-gap: 1rem;
+  width: 80vw;
+  /* miheight: 100vw; */
+  margin: 0 auto;
+}
+
+.won {
+  opacity: 0.5;
+  position: relative;
+}
+.won .won-text {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.tile.revealed img,
+.tile.found img {
+  margin: 1rem auto;
+  display: block;
+}
+.tile img {
+  display: none;
+}
+.tile.revealed,
+.tile.found {
+  background-color: white;
+  background-image: none;
+}
+.tile {
+  height: 8rem;
+  width: 8rem;
+  background-color: #878C00;
+  background-image: url('https://www.transparenttextures.com/patterns/argyle.png');
+}
+
+#Scoreboard {
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.52);
+justify-content: center;
+display: flex;
+width: 600px;
+margin-left: 750px;
+}
+
+div {
+  margin: 35px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
