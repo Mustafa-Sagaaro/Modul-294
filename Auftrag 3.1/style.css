@@ -1,0 +1,103 @@
+#header {
+    align-items: center;
+    height: 100px;
+    display: flex;
+}
+
+#header h1 {
+    text-align: center;
+    margin-left: 30%;
+    font-size: 38px;
+}
+
+#header img {
+    width: 250px;
+}
+
+
+#checkbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.checkboxTop {
+    margin: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.checkboxcontainer {
+    width: 475px;
+    margin-right: 75px;
+}
+
+#AHV-Fieldset {
+    width: 400px;
+    float: right;
+}
+
+#Contact-Fieldset {
+align-items: center;
+justify-content: center;
+
+}
+
+.inputfields label{
+    margin: 20px;
+}
+
+.inputfields input{
+    width: 300px;
+    height: 30px;
+}
+
+#Datumangaben {
+    margin-top: 20px;
+}
+
+#Datumangaben input{
+    width: 375px;
+    height: 35px;
+    
+}
+.Datumangabenlabel {
+    margin: 50px;
+    font-size: 20px;
+}
+.inputfields input{
+    background-color: #dae2ff
+}
+
+#Datumangaben input {
+    background-color: #dae2ff
+
+}
+
+
+#AHV-Inputfield {
+    width: 250px;
+    height: 34px;
+    background-color: #dae2ff;
+}
+
+#Nameinput {
+    width: 650px;
+}
+
+.Reisezielcontainer label{
+
+}
+
+
+#reisezielinput1 {
+    width: 450px;
+    height: 40px;
+    background-color: #dae2ff;
+}
+
+.Reisezielcontainer {
+    width: 940px;
+}

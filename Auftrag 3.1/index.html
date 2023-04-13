@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <img src="img/Logo.png" alt="">
+        <h1> Gesuch /Dumonda</h1>
+    </div>
+    <form>
+        <div id="checkbox">
+            <div class="checkboxcontainer">
+                <input type="checkbox" id="urlaub" name="urlaub" value="urlaub">
+                <label class="checkboxTop" for="urlaub">Persönlicher Urlaub</label>
+                <br>
+                <br>
+                <input type="checkbox" id="zivilkleider" name="zivilkleider" value="zivilkleider">
+                <label class="checkboxTop" for="zivilkleider">Tragen der Zivilkleider im Ausgang/Urlaub</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="privatauto" name="privatauto" value="privatauto">
+                <label class="checkboxTop" for="privatauto">Führen eines privaten Motorfahrzeuges während der
+                    Arbeitszeit und
+                    Ruhezeit</label>
+            </div>
+            <div>
+                <input type="checkbox" id="privatauto-ausgang" name="privatauto-ausgang" value="privatauto-ausgang">
+                <label class="checkboxTop" for="privatauto-ausgang">Führen eines privaten Motorfahrzeuges im
+                    Ausgang</label>
+            </div>
+        </div>
+        <fieldset id="AHV-Fieldset">
+            <label for="AHV-Inputfield">AHV-Nr.</label><input type="Text" id="AHV-Inputfield">
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <fieldset id="Contact-Fieldset">
+            <div class="inputfields">
+                <label for="gradinput">Grad</label><input type="text" id="gradinput">
+
+                <label for="Nameinput">Name,Vorname</label><input type="text" id="Nameinput">
+
+                <label for="Kp/Bttrinput">Kp/Bttr</label><input type="text" id="Kp/Bttrinput">
+
+                <label for="Zuginput">Zug</label><input type="text" id="Zuginput">
+            </div>
+        </fieldset>
+        <div id="Datumangaben">
+            <label class="Datumangabenlabel" for="Voninputfield">Vom</label><input type="date" id="Voninputfield">
+            <label class="Datumangabenlabel" for="VonZeit">Zeit</label><input type="time" id="VonZeit"><label
+                class="Datumangabenlabel" for="Bisinputfield">Bis</label><input type="date" id="Bisinputfield">
+            <label class="Datumangabenlabel" for="BisZeit">Zeit</label><input type="time" id="BisZeit">
+        </div>
+        <hr>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr);">
+            <div class="Reisezielcontainer">
+                <label for="reisezielinput" style="font-size: 20px; margin-right: 45px;">Reiseziel</label><input
+                    type="text" id="reisezielinput1"><label for="Reisemitcheckbox"
+                    style="margin-left: 100px; font-size: 22px; margin-right: 30px;">Reise mit</label><input
+                    type="checkbox" style="margin-left: 20px;"><label for="reisezielinput"
+                    style="font-size: 20px; margin-right: 20px;">Auto</label> <label for="reisezielinput"
+                    style="font-size: 30px;">➔</label><br>
+                <div style="margin-left: 805px; font-size: 20px;"> <input type="checkbox" id="reisezielinput">
+                    <label for="reisezielinput" style="margin-right: 24px"> Zug</label><label for="reisezielinput"
+                        style="font-size: 30px;">➔</label>
+                </div>
+            </div>
+
+            <div id="reisedauercontainer">
+                <label for="reisedauer" style="margin-right: 45px; font-size: 22px;">Reisedauer</label><input
+                    type="text" id="reisedauer" style="width: 600px; height: 30px; background-color: #dae2ff;">
+                <hr>
+
+                <label for="Hinreise" style="margin-right: 45px; font-size: 22px;">Hinreise:</label> <label
+                    for="Hinreise">Abfahrt</label><input type="text"
+                    style="width: 325px; margin-left: 10px;margin-right: 10px; background-color: #dae2ff; height: 30px;"><label
+                    for="Hinreise">Ankunft</label><input type="text"
+                    style="width: 325px; background-color: #dae2ff; margin-left: 10px; height: 30px;">
+                <hr>
+                <label for="Hinreise" style="margin-right: 45px; font-size: 22px;">Rückreise:</label> <label
+                    for="Hinreise">Abfahrt</label><input type="text"
+                    style="width: 325px; margin-left: 10px;margin-right: 10px; background-color: #dae2ff; height: 30px;"><label
+                    for="Hinreise">Ankunft</label><input type="text"
+                    style="width: 325px; background-color: #dae2ff; margin-left: 10px; height: 30px;">
+                <hr>
+            </div>
+            <textarea rows="3"></textarea>
+
+    </form>
+</body>
+
+</html>
